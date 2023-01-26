@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      CodePen - Icons Without &lt;i&gt; Tags (Semantic FontAwesome Icon Use)
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-q3eW5iHhzTkCe1czbtAMf3e/jLgUJF5nCp8lYp5Z/cMgX6E/mkdNlfhj2Z2Kj9XOo/OvbT9Xr+zc5/5M5r5j5g=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="rating">
+      <i class="fa-thin fa-star"></i>
+      <i class="fa-thin fa-star"></i>
+      <i class="fa-thin fa-star"></i>
+      <i class="fa-thin fa-star"></i>
+      <i class="fa-thin fa-star"></i>
+    </div>
+    <input
+      type="number"
+      id="rating-input"
+      min="0"
+      max="5"
+      step="0.5"
+      value="4.5"
+    />
+    <button id="submit-rating">Submit</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
