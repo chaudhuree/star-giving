@@ -1,9 +1,0 @@
-/* my code */
-.fa-star:before {
-  content: "\f005";
-  color: #ccc;
-}
-
-.fa-star.checked:before {
-  color: #f00;
-}
